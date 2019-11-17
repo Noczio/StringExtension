@@ -43,6 +43,7 @@ namespace StringExtension
                     {
                         fixed_string += transfomation_dict[letter.ToString()];
                     }
+                    else { fixed_string += letter; }
                 }
                 counter++;
                 if (counter != string_separated_length - 1) { fixed_string += " "; }
