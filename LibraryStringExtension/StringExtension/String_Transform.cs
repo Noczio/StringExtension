@@ -33,6 +33,8 @@ namespace StringExtension
             var string_separated = @string.Split_By_White_Space();
             string fixed_string = String.Empty;
 
+            int string_separated_length = string_separated.Length;
+            int counter = 0;
             foreach (var word in string_separated)
             {
                 foreach (var letter in word)
@@ -42,7 +44,8 @@ namespace StringExtension
                         fixed_string += transfomation_dict[letter.ToString()];
                     }
                 }
-                fixed_string += " ";
+                counter++;
+                if (counter != string_separated_length - 1) { fixed_string += " "; }
             }
 
             return fixed_string;
