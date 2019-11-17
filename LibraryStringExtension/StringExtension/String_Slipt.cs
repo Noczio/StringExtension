@@ -27,7 +27,7 @@ namespace StringExtension
                 else string_capital_separated += letter;
             }
 
-            return Split_By_White_Space(string_capital_separated);
+            return string_capital_separated.Split_By_White_Space();
         }
     }
 }
