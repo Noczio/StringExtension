@@ -3,3 +3,8 @@ A:\Nocz\Proyectos programación C#\LibraryStringExtension\StringExtension\bin\De
 A:\Nocz\Proyectos programación C#\LibraryStringExtension\StringExtension\bin\Debug\StringExtension.pdb
 A:\Nocz\Proyectos programación C#\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.dll
 A:\Nocz\Proyectos programación C#\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.pdb
+A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\bin\Debug\StringExtension.dll
+A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\bin\Debug\StringExtension.pdb
+A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.csprojAssemblyReference.cache
+A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.dll
+A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.pdb

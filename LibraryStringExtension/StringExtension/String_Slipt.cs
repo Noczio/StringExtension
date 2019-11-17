@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace StringExtension
 {
     public static class String_Slipt
-    {      
+    {
         public static string[] Split_By_White_Space(this string @string)
-        {         
-            var separator = new char[] { ' ' };                           
+        {
+            var separator = new char[] { ' ' };
             string[] string_separated = @string.Split(separator, StringSplitOptions.RemoveEmptyEntries);
             return string_separated;
         }
@@ -28,7 +28,6 @@ namespace StringExtension
             }
 
             return Split_By_White_Space(string_capital_separated);
-            
         }
     }
 }

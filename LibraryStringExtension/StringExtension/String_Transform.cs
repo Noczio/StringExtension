@@ -9,13 +9,18 @@ namespace StringExtension
 {
     public static class String_Transform
     {
-        public static string Capitalize(this string @string) { return @string.ToLower().Substring(0, 1).ToUpper() + @string.Substring(1).ToLower(); }
+        public static string Capitalize(this string @string)
+        {
+            return @string.ToLower().Substring(0, 1).ToUpper() + @string.Substring(1).ToLower();
+        }
+
         public static string Title(this string @string)
         {
             TextInfo ti = CultureInfo.CurrentCulture.TextInfo;
             return ti.ToTitleCase(@string.ToLower());
         }
-        public static string Remove_Diacritics(string @string)
+
+        public static string Remove_Diacritics(this string @string)
         {
             var transfomation_dict = new Dictionary<string, string> { {"á","a"},
                 {"é","e"},
@@ -25,22 +30,22 @@ namespace StringExtension
                 {"ü","u"}
             };
 
-            var string_separated = String_Slipt.Split_By_White_Space(@string);
+            var string_separated = @string.Split_By_White_Space();
             string fixed_string = String.Empty;
 
-          
-            foreach (var word in string_separated.Select((data, indx) => new { Value = data, Index = indx }))
+            foreach (var word in string_separated)
             {
-                foreach (var letter in word.Value)
+                foreach (var letter in word)
                 {
-                    if (transfomation_dict.ContainsKey(letter.ToString())) fixed_string += transfomation_dict[letter.ToString()];
-                    else fixed_string += letter;
+                    if (transfomation_dict.ContainsKey(letter.ToString()))
+                    {
+                        fixed_string += transfomation_dict[letter.ToString()];
+                    }
                 }
-                if (word.Index < string_separated.Length) fixed_string += " ";
-            }                                                             
+                fixed_string += " ";
+            }
 
             return fixed_string;
         }
-
     }
 }
