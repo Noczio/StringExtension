@@ -46,7 +46,7 @@ namespace StringExtension
                     else { fixed_string += letter; }
                 }
                 counter++;
-                if (counter <= string_separated_length) { fixed_string += " "; }
+                if (counter <= string_separated_length-1) { fixed_string += " "; }
             }
 
             return fixed_string;

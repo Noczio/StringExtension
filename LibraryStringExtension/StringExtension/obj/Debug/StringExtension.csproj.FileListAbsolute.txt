@@ -8,3 +8,9 @@ A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExt
 A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.csprojAssemblyReference.cache
 A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.dll
 A:\Nocz\GitHub C# respositories\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.pdb
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\bin\Debug\StringExtension.dll
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\bin\Debug\StringExtension.pdb
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.csprojAssemblyReference.cache
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.dll
+C:\Users\ESTUDIANTES\Desktop\StringExtension\LibraryStringExtension\StringExtension\obj\Debug\StringExtension.pdb
